@@ -1,0 +1,46 @@
+.centerText{
+    text-align: center;
+    font-size: 400%;
+    font-family: Garamond;
+}
+
+
+.ricettaText{
+    text-align: center;
+}
+
+.imgAlignCenter{
+    text-align: center;
+}
+
+.container {
+    margin: 20px auto;
+    width: 900px;
+    height: 900px;
+    background-color: #fff;
+    display: grid;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    font-family: garamond;
+}
+
+.imagebox {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    display: absolute;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: garamond;
+}
+
+.imagebox img {
+    width: 100%;
+}
+
+.imagebox p {
+    color: black;
+}

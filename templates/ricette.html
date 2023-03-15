@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{url_for('static', filename='CSSs/styles.css')}}">
+        <title>Cucine D'italia</title>
+        <h1 class="titleText">Cucine D'italia</h1>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="imagebox">
+                <img src="{{url_for('static', filename='images/pasta.jpg')}}" />
+                <a href="/pasta">ricetta spaghetti</a>
+            </div>
+            <div class="imagebox">
+                <img src="{{url_for('static', filename='images/pizza.jpg')}}" />
+                <a href="/pizza">ricetta pizza</a>
+            </div>
+            <div class="imagebox">
+                <img src="{{url_for('static', filename='images/focaccia.jpg')}}" />
+                <a href="url">ricetta focaccia</a>
+            </div>
+            <div class="imagebox">
+                <img src="{{url_for('static', filename='images/lasagna.jpg')}}" />
+                <a href="url">ricetta lasagna</a>
+            </div>
+        </div>
+    </body>
+</html>
